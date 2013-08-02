@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+    revision="1279">
+<author>xuekang</author>
+<date>2013-07-29T14:21:54.480522Z</date>
+<paths>
+<path
+    kind="file"
+    action="M">/trunk/impala/be/src/exec/exchange-node.cc</path>
+<path
+    kind="file"
+    action="M">/trunk/impala/be/src/runtime/disk-io-mgr.cc</path>
+</paths>
+<msg>ISSUE=166476</msg>
+</logentry>
+<logentry
+    revision="1276">
+<author>cuixiaofeng</author>
+<date>2013-07-29T02:33:19.517080Z</date>
+<paths>
+<path
+    action="A"
+    kind="file">/trunk/impala/be/src/exec/exchange-node.cc</path>
+<path
+    kind="file"
+    action="M">/trunk/impala/be/src/runtime/disk-io-mgr.cc</path>
+<path
+    kind="file"
+    action="M">/trunk/src/client/src/java/com/baidu/queryengine/client/CliDriver.java</path>
+</paths>
+<msg>
+ISSUE=166070
+COMMENT=Change log level in exec-node.cc</msg>
+</logentry>
+</log>
+
